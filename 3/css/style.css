@@ -1,0 +1,160 @@
+@font-face {
+  font-family: "Graphik LCG";
+  src: url("../fonts/GraphikLCG-Medium.woff2") format("woff2"), url("../fonts/GraphikLCG-Medium.woff") format("woff");
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Regular.woff2") format("woff2"), url("../fonts/Gilroy-Regular.woff") format("woff");
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy-800";
+  src: url("../fonts/Gilroy-ExtraBold.woff2") format("woff2"), url("../fonts/Gilroy-ExtraBold.woff") format("woff");
+  font-display: swap;
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy-500";
+  src: url("../fonts/Gilroy-Medium.woff2") format("woff2"), url("../fonts/Gilroy-Medium.woff") format("woff");
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+table,
+td,
+th {
+  border: 1px solid #000;
+}
+
+table {
+  border-collapse: collapse;
+  margin-top: 100px;
+}
+
+th {
+  padding: 5px;
+}
+
+td {
+  padding: 5px;
+}
+
+* {
+  margin: 0;
+  font-family: "Gilroy-500", sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+h1, h2{
+  font-family: "Gilroy-800", sans-serif;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #222020;
+}
+
+.title-index {
+  margin-bottom: 30px;
+}
+.title-index a {
+  color: white;
+}
+
+.download {
+  padding: 20px;
+  background-color: #2f1ce4;
+  border: 3px solid #2f1ce4;
+  margin-right: 3px;
+}
+
+.download a {
+  color: white;
+}
+
+.more {
+  padding: 20px;
+  background-color: transparent;
+  border: 3px solid white;
+}
+
+.more a {
+  color: white;
+}
+
+.links {
+  display: flex;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+
+.back-link{
+  padding-left: 25px;
+  background-image: url(/img/icons8-left-arrow-24.png);
+  background-position: left center;
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+}
+
+.title{
+  margin-top: 100px;
+  padding-left: 100px;
+  font-size: 48px;
+  color: #222020;
+  font-weight: 700;
+}
+
+.subtitle{
+  padding-left: 180px;
+  font-size: 36px;
+  color: #2f1ce4;
+  margin-top: 100px;
+  margin-bottom: 25px;
+  font-weight: 700;
+}
+
+.list
+{
+  padding-left: 200px;
+  font-size: 18px;
+}
+
+
+.paragraph{
+  padding-left: 180px;
+  margin-bottom: 20px;
+}
+
+figure
+{
+  padding-left: 200px;
+  text-align: center;
+  display: inline-block;
+  margin: 50px 0;
+}
